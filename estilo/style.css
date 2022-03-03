@@ -1,0 +1,66 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body { 
+  margin: 0px;
+  top: 0px;
+}
+
+.image-capa {
+  background-image: url(/imagens/imagem-capa.jpg);
+  position: relative;
+  margin-top: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.fw-light {
+  color: blue !important;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.text {
+  color: blue !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold important;
+  font-size: 16rem;
+  opacity: 1;
+}
+.bg-projects {
+  background: green !important;
+  padding: 10px;
+}
+p {
+  font-family: Lato, "Helvetica Neue", "Heletica", Arial, sans-serif;
+  color: black !important;
+}
+.jombotron-heading {
+  color: black !important;
+  padding: 10px;
+  font-weight: bold;
+}
+.sobre {
+  padding: 5px;
+  background: #a9a2a1;
+}
+
+.botoes {
+  margin-left: 10px;
+}
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: green !important;
+  margin-bottom: 0px;
+}
+
+.bordas{
+  border: 1px solid black !important;
+  padding: 2px;
+  box-shadow: 20px black !important;
+}
